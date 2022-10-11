@@ -1,19 +1,19 @@
 # JSAdvance
-Syntax, Functions and Statements - Lab
-Syntax, Functions and Statements - Exercise
-Arrays and Nested Arrays - Lab
-Arrays and Nested Arrays - Exercise
-Objects & Composition - Lab
-Objects & Composition - Exercise
-DOM Introduction - Lab
-DOM Introduction - Exercise
-DOM Manipulations and Events - Lab
-DOM Manipulations and Events - Exercise
-Advanced Functions - Lab
-Advanced Functions - Exercise
-Unit Testing and Error Handling - Lab
-Unit Testing and Error Handling - Exercise
-Classes
-Prototypes and Inheritance
-Exam Preparation
-Regular Exam
+1.Syntax, Functions and Statements - Lab
+2.Syntax, Functions and Statements - Exercise
+3.Arrays and Nested Arrays - Lab
+4.Arrays and Nested Arrays - Exercise
+5.Objects & Composition - Lab
+6.Objects & Composition - Exercise
+7.DOM Introduction - Lab
+8.DOM Introduction - Exercise
+9.DOM Manipulations and Events - Lab
+10.DOM Manipulations and Events - Exercise
+11.Advanced Functions - Lab
+12.Advanced Functions - Exercise
+13.Unit Testing and Error Handling - Lab
+14.Unit Testing and Error Handling - Exercise
+15.Classes
+16.Prototypes and Inheritance
+17.Exam Preparation
+18.Regular Exam
