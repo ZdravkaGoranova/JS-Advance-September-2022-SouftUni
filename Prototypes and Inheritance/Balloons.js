@@ -1,0 +1,45 @@
+function solution() {
+    class Balloon {
+        constructor(color, hasWeight) {
+            this.color = color;
+            this.hasWeight = hasWeight;
+        }
+    };
+    class PartyBalloon extends Balloon {
+        constructor(color, hasWeight, ribbonColo, ribbonLength) {
+            super(color, hasWeight);
+            this.ribbonColo = ribbonColo;
+            this.ribbonLength = ribbonLength;//this.означава публик
+            this._ribbon = {
+                color: ribbonColo,
+                length: ribbonLength,
+            }
+        }
+        get ribbon() {//когато е правет(долначерта( this._ribbon) извикваме getter
+            return this._ribbon;
+        };
+    };
+    class BirthdayBalloon extends PartyBalloon {
+        constructor(color, hasWeight, ribbonColo, ribbonLength, text) {
+            super(color, hasWeight, ribbonColo, ribbonLength);
+            this.text = text;//ако тук  имаме  this._text = text трябва да извикаме get text(){}
+        }
+        getText() {// ako e 
+            this._text = text;
+        }
+    };
+    return {
+        Balloon: Balloon,
+        PartyBalloon: PartyBalloon,
+        BirthdayBalloon: BirthdayBalloon
+    }
+}
+
+let classes = solution();
+let testBalloon = new classes.Balloon("yellow", 20.5);
+let testPartyBalloon = new classes.PartyBalloon("yellow", 20.5, "red", 10.25);
+let ribbon = testPartyBalloon.ribbon;
+console.log(testBalloon);
+console.log(testPartyBalloon);
+console.log(ribbon);
+
