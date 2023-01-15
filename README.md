@@ -1,5 +1,5 @@
-# JSAdvance
-1.Syntax, Functions and Statements - Lab
+#  JavaScript Advance
+## 1.Syntax, Functions and Statements - Lab
 2.Syntax, Functions and Statements - Exercise
 3.Arrays and Nested Arrays - Lab
 4.Arrays and Nested Arrays - Exercise
